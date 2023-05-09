@@ -1,4 +1,4 @@
-resource "aws_route53_zone" "zone53" {
+/*resource "aws_route53_zone" "zone53" {
   name = "somesampleaddress.com"
 }
 
@@ -12,4 +12,4 @@ resource "aws_route53_record" "www" {
     zone_id                = aws_lb.loadbalancer.zone_id
     evaluate_target_health = true
   }
-}
+} */
